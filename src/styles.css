@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                                       left bottom,
+                                       left top,
+                                       color-stop(0.44, rgb(122,153,217)),
+                                       color-stop(0.72, rgb(73,125,189)),
+                                       color-stop(0.86, rgb(28,58,148)));
+}
+/* common css */
+.bg_color{
+    background-color: rgb(23, 186, 150);
+    color: white;
+}
+.clutchimg{
+width: 100%;
+}
+/* .col_width{
+    border: 2px solid red;
+} */
+
+.icon_size{
+width: 30px;
+height: 30px;
+ border: 1px solid rgb(36, 92, 243); 
+ padding: 5px;
+
+
+}
+
+.text_justify{
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 250px;
+    padding: 10px;
+  }
+  .fortfoliImg img{
+    width: 100%;
+    }
+
+    .Bg_Color{
+        background-color: rgb(36, 92, 243);
+        color: white;
+    }
+
+    .display_flex{
+        display: flex;
+    }
+
+.borderTop{
+        border-top: 1px solid #f1f1f1;
+    }
+.card{
+    height: 450px;
+}
+/*------------ spacing start ----------- */
+.headRow {
+    align-items: center;
+}
+.textJus p{
+    text-align: justify;
+}
+.alignText{
+    text-align: center;
+}
+.lepd{
+    padding-left: 30px;
+}
+/*------------ spacing end----------- */
+.color_bottom{
+    background-color: #8574e9;
+    color: white;
+}
+/*------------ btn start--------------- */
+.btn-col-1 {
+    background-color: #894ae2;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 20px;
+    font-size: 21px;
+  }
+.btn-col-2 {
+    background-color: #f37648;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 20px;
+    font-size: 21px;
+  }
+  .btn-col-1:hover {
+    background-color: #fb55a5;
+    box-shadow: 0px 5px 14px 4px rgb(30 10 10 / 16%);
+
+  }
+  .btn-col-2:hover {
+    background-color: #fb55a5;
+    box-shadow: 0px 5px 14px 4px rgb(30 10 10 / 16%);
+  }
+/*------------ btn end--------------- */

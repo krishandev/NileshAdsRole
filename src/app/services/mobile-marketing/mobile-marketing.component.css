@@ -1,0 +1,19 @@
+.card {
+    height: 570px;
+}
+.card_2 {
+    padding: 20px;
+    height: 480px;
+    border: 1px solid #e9e5e5;
+    border-radius:5px;
+}
+.bg_img{
+    background-image:url("/assets/Mobile_Marketing/Mobile-Marketing.webp"); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.headRow {
+    height: 400px;
+}

@@ -1,0 +1,13 @@
+.card {
+    height: 410px;
+}
+.bg_img{
+     background-image:url("/assets/WordPress_Website/header-bg.webp"); 
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   
+}
+.headRow {
+    height: 400px;
+}
